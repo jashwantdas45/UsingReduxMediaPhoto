@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux"
-import CollectionCard from "../components/collectionCard"
+import CollectionCard from "../components/CollectionCard"
 import { clearCollection } from "../redux/features/collectionSlice";
 
 export default function CollectionPage() {
